@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .container a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.navbar .container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1184px;
+}
+
+.container {
+    width: 1184px;
+    margin: auto;
+}
+
+.navbar .container h3 {
+    font-size: 35.7px;
+    font-weight: 500;
+}
+
+.cart {
+    position: relative;
+    font-size: 41.71px;
+    padding: 0 10px;
+}
+
+.cart .amount {
+    background-color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 15.7px;
+}
+
+.home .container h1 {
+    font-size: 67.71px;
+    font-weight: 700;
+    line-height: 79px;
+    
+}
+
+.home .container {
+    padding-top: 180px ;
+    padding-bottom: 90px;
+}
+
+
+.home .container h3 {
+    font-weight: 700;
+    font-size: 67.71px;
+    line-height: 79px;
+    width: 475px;
+}
+
+.home .container p {
+    font-weight: 500;
+    font-size: 28.5px;
+    line-height: 43px;
+    width: 632px;
+}
+
+.home .container button {
+    font-weight: 400;
+    font-size: 25.0518px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    margin-top: 31px;
+    padding: 5px 20px;
+}
+
+.home .container .image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product {
+    padding-top: 120px;
+}
+
+.product .container h3 {
+    font-weight: 700;
+    font-size: 28.5px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-shoes {
+    width: 365.91px;
+    padding-top: 20px;
+    box-shadow: 0px 9.08835px 51.1044px rgba(0, 0, 0, 0.1);
+}
+
+.card-shoes .image {
+    text-align: center;
+}
+
+.card-detail .name-shoes {
+    font-size: 27.24px;
+    margin: 0 29px 29px 29px;
+    text-align: center;
+}
+
+.card-price p {
+    margin-bottom: 0;
+}
+
+.card-shoes .card-price {
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+    font-size: 27.2427px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.card-shoes .card-price .button-quantity {
+    display: flex;
+    gap: 15px;
+}
+
+.card-shoes .card-price .button-quantity .bi {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.card-shoes .card-price .button-quantity .bi:hover {
+    opacity: 1;
+}
+
+.content-cart {
+    padding-top: 150px;
+}
+
+.content-cart .container {
+    box-shadow: 0px 4.08835px 51.1044px rgba(0, 0, 0, 0.1);
+}
+
+
+/* CONTENT CART */
+
+.content-cart .image .bi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.content-cart .image img {
+    margin-left: 50px;
+}
+
+.content-cart .image {
+    position: relative;
+}
+
+.content-cart .content-detail {
+    font-size: 27.24px;
+    margin-top: 50px;
+}
+
+.content-cart .content-detail .price {
+    font-size: 20.24px;
+}
+
+.content-cart .content-detail .total-price {
+    font-size: 23.24px;
+    color: black;
+    width: 250px;
+    font-weight: 700;
+}
+
+.content-cart .button-quantity {
+    font-size: 25px;
+    margin-top: 5px;
+    gap: 15px;
+}
+
+.content-cart .button-quantity .bi {
+    opacity: 0.5;
+}
+
+.content-cart .button-quantity .bi:hover {
+    opacity: 1;
+}
+
+.navbot .container .container-fluid .button-clear {
+    text-decoration: none;
+    border: solid 2px;
+    border-color: black;
+    padding: 3px 10px 3px 10px;
+    font-size: 20px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.navbot .container .container-fluid .button-checkout {
+    text-decoration: none;
+    padding: 3px 10px 3px 10px;
+    border: solid 2px;
+    border-color: black;
+    font-size: 20px;
+    color: #fff;
+    background-color: black;
+}
+
+.navbot .container .container-fluid {
+    padding: 0 0;
+    box-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.navbot .container .container-fluid p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.navbot .container .container-fluid .button-navbar #deleteAll .button-clear{
+    margin-left: 0;
+}
+
+.navbot .container .container-fluid .button-navbar #deleteAll .button-clear:hover{
+    margin-left: 0;
+    background-color: black;
+    color: #fff;
+}
+
+.navbot .container {
+    padding: 0;
+}
+
+.navbar .container {
+    z-index: 99;
+}
+
+.label p {
+    font-size: 27px;
+    color: black;
+    margin-top: 18rem;
+    text-align: center;
+}
+
+.empty {
+    margin-top: 7rem;
+}
+
+.button-quantity .bi {
+    cursor: pointer;
+}
+
+.container .image .bi-x-square-fill {
+    opacity: 0.5;
+}
+
+.container .image .bi-x-square-fill:hover {
+    opacity: 1;
+}
+

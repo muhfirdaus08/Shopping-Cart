@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div class="navbar fixed-top">
+            <div class="container">
+                <a href="index.html">
+                    <h3>Shopping Cart</h3>
+                </a>
+                <a href="#home-cart">
+                    <div class="cart">
+                        <i class="bi bi-cart2"></i>
+                        <div class="amount" id="amount">0</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="container label" id="label"></div>
+
+        <div class="content-cart" id="home-cart"></div>
+
+        <div class="empty"></div>
+
+        <nav class="navbar navbot fixed-bottom bg-light">
+            <div class="container">
+                <div class="container-fluid d-flex justify-content-between align-items-center">
+                    <div class="button-navbar">
+                        <!-- <button class="button-checkout">Checkout</button> -->
+                        <div id="deleteAll"></div>
+                    </div>
+                    <div id="totalHarga"></div>
+                </div>
+            </div>
+        </nav>
+
+        <script src="JS/card_data.js"></script>
+        <script src="JS/content_cart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
